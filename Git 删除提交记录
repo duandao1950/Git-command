@@ -1,0 +1,16 @@
+
+执行 git log ，本次提交错误。
+但我不想要本次提交，并让 git log 不显示我本次提交的记录
+
+复制上一次的 commitId ，执行下面命令
+git reset --hard 7a0d9768af38313d58f198be5c8d37ea2357168e
+
+执行如下命令
+git push origin HEAD -f
+
+执行命令
+git log 查看提交记录，发现已经没有我们上次提交的记录了
+
+git 删除提交记录
+https://jingyan.baidu.com/article/1612d500086336a20e1eee9e.html
+
