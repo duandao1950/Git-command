@@ -1,0 +1,24 @@
+
+windows 同时使用 gitlab 和 github
+
+背景：
+个人 github 账号 与 公司 gitlab 账号 同时在一台电脑上使用
+
+#gitlib，生成过程需要密码填写对于的密码即可
+ssh-keygen -t rsa -C "xxx" -f ~/.ssh/gitlab_id-rsa
+
+#github
+ssh-keygen -t rsa -C "xxx" -f ~/.ssh/github_id-rsa
+
+window7 下同时使用 github 和 gitlab
+https://blog.csdn.net/itsoftchenfei/article/details/88662432
+
+同一台电脑同时使用 gitHub和 gitLab
+https://www.cnblogs.com/lfr0123/p/13477001.html
+
+如果 config 配置 没有手动创建一个 config 不带后缀的文件
+
+同一台电脑同时使用 gitHub 和 gitLab
+https://www.cnblogs.com/lfr0123/p/13477001.html
+
+
